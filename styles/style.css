@@ -1,10 +1,10 @@
 /* MOBILE */
 
 body {
-  background-color: #35b1ff;
   font-size: 18px;
   font-family: "Barlow", sans-serif;
   margin: 0;
+  width: 100%;
 }
 
 .header-container {
@@ -14,7 +14,6 @@ body {
   background-size: cover;
 
   height: 535px;
-  width: 100%;
 }
 
 .logo-image {
@@ -27,9 +26,11 @@ h1 {
   font-weight: 500;
   color: hsl(0, 0%, 100%);
   letter-spacing: 4px;
-  width: 100%;
 }
 
+.heading-text {
+  margin-top: 96px;
+}
 .nav-buts {
   display: none;
 }
@@ -64,8 +65,50 @@ h1 {
   display: block;
 }
 
-.dropdown:active .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
+}
+
+.intros-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.intro-container {
+  background-color: white;
+  text-align: center;
+  color: hsl(212, 27%, 19%);
+}
+
+.intro-container h2 {
+  font-family: "Fraunces", serif;
+  margin-top: 72px;
+  margin-bottom: 42px;
+}
+
+.intro-container p {
+  font-weight: lighter;
+  font-family: Helvetica, sans-serif;
+  padding: 10px 25px 10px 25px;
+}
+
+.intro-container a {
+  display: inline-block;
+  font-family: "Fraunces", serif;
+  text-decoration: none;
+  color: hsl(212, 27%, 19%);
+  margin-top: 10px;
+  margin-bottom: 65px;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+.intro-container a:link a:visited {
+  font-family: "Fraunces", serif;
+  text-decoration: none;
+  color: hsl(212, 27%, 19%);
 }
 /* DESKTOP */
 
