@@ -1,0 +1,17 @@
+body {
+  background: red;
+}
+
+/* TABLET / SMALL SCREEN */
+
+@media (min-width: 600px) {
+  body {
+  }
+}
+
+/* LARGE SCREEN*/
+
+@media (min-width: 800px) {
+  body {
+  }
+}
