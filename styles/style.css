@@ -77,7 +77,7 @@ h1 {
 }
 
 .intro-container {
-  background-color: white;
+  background-color: #fffbf7;
   text-align: center;
   color: hsl(212, 27%, 19%);
 }
@@ -128,7 +128,10 @@ h1 {
 
 .graphic-design p {
   padding: 0px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: thin;
 }
+
 #services {
   display: flex;
   flex-direction: column;
@@ -150,8 +153,47 @@ h1 {
 
 .photography p {
   padding: 0px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: thin;
 }
 
+.testimonials-container {
+  text-align: center;
+}
+
+.testimonials-container h2 {
+  text-align: center;
+  color: hsl(210, 4%, 67%);
+  font-family: "Fraunces", serif;
+  margin-top: 50px;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.testimonial {
+  margin-bottom: 10px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  transform: scale(0.6);
+}
+
+.testimonial blockquote {
+  font-family: Helvetica, sans-serif;
+  color: hsl(212, 27%, 19%);
+  font-weight: lighter;
+}
+
+.testimonial .author {
+  font-family: Helvetica, sans-serif;
+}
+
+.testimonial .company {
+  font-family: Helvetica, sans-serif;
+  color: hsl(210, 4%, 67%);
+  font-weight: lighter;
+}
 /* DESKTOP */
 
 @media (min-width: 600px) {
