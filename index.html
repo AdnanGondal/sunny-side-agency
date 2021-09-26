@@ -6,23 +6,57 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
 </head>
 <body>
 <header>
-    <img src="images/logo.svg" alt="sunnyside logo">
-    <nav>
-        <button>About</button>
-        <button>Services</button>
-        <button>Projects</button>
-        <button>Contact</button>
+    <div class="header-container">
+        <div class = "header-nav">
+            <img class="logo-image" src="images/logo.svg" alt="sunnyside logo">
+            
+            
+            <div class="dropdown">
+            
+            <a href="#" class="fa fa-bars dropdown-menu"></a>
+                <div class="dropdown-content">
+                    <button>About</button>
+                    <button>Services</button>
+                    <button>Projects</button>
+                    <button>Contact</button>
+                </div>
+
+        </div>
+
+        <div class="nav-buts">
+            <nav>
+                <button>About</button>
+                <button>Services</button>
+                <button>Projects</button>
+                <button>Contact</button>
+            </nav>
+        </div>
+        </div>
+       
+
+
+        
+      
+        <div class = "heading-text">
+            <h1> WE ARE <span>CREATIVES</span></h1>
+        </div>
+        
+    </div>
 </header>
 <main>
-    <h1> We are creatives</h1>
-    <img src="images/desktop/image-header.jpg" alr = "orange with arrow" height="200px">
     <section id = "intros">
         <div>
             <h2>Transform your brand</h2>
