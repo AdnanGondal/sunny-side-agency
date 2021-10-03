@@ -5,7 +5,7 @@
   }
 
   .header-container {
-    background-image: url(../images/desktop/image-header.jpg);
+    background-image: url("../images/desktop/image-header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@
   }
 
   .egg-image {
-    background: url(../images/desktop/image-transform.jpg);
+    background: url("../images/desktop/image-transform.jpg");
     width: 100%;
     height: auto;
     background-position: center;
@@ -56,7 +56,7 @@
   }
 
   .cup-image {
-    background: url(../images/desktop/image-stand-out.jpg);
+    background: url("../images/desktop/image-stand-out.jpg");
     width: 100%;
     height: auto;
     background-position: center;
@@ -65,7 +65,7 @@
   }
 
   .graphic-design {
-    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-image: url("../images/desktop/image-graphic-design.jpg");
   }
 
   .graphic-design p {
@@ -78,7 +78,7 @@
     padding: 0px 60px;
   }
   .photography {
-    background-image: url(../images/desktop/image-photography.jpg);
+    background-image: url("../images/desktop/image-photography.jpg");
   }
 
   .transform-brand {
