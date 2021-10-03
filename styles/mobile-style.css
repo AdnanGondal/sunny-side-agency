@@ -262,17 +262,3 @@ h1 {
   color: hsl(168, 34%, 41%);
   text-decoration: none;
 }
-/* DESKTOP */
-
-@media (min-width: 600px) {
-  body {
-  }
-
-  .nav-buts {
-    display: inline;
-  }
-
-  .dropdown {
-    display: none;
-  }
-}
