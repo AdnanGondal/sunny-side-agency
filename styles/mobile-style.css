@@ -8,7 +8,7 @@ body {
 }
 
 .header-container {
-  background-image: url(/images/mobile/image-header.jpg);
+  background-image: url(../images/mobile/image-header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +144,7 @@ h1 {
 }
 
 .graphic-design {
-  background-image: url(/images/mobile/image-graphic-design.jpg);
+  background-image: url(../images/mobile/image-graphic-design.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,7 +169,7 @@ h1 {
   flex-direction: column;
 }
 .photography {
-  background-image: url(/images/mobile/image-photography.jpg);
+  background-image: url(../images/mobile/image-photography.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,10 +229,10 @@ h1 {
 }
 
 .place-holder-images {
-  background-image: url("/images/mobile/image-gallery-milkbottles.jpg"),
-    url("/images/mobile/image-gallery-orange.jpg"),
-    url("/images/mobile/image-gallery-cone.jpg"),
-    url("/images/mobile/image-gallery-sugar-cubes.jpg");
+  background-image: url("../images/mobile/image-gallery-milkbottles.jpg"),
+    url("../images/mobile/image-gallery-orange.jpg"),
+    url("../images/mobile/image-gallery-cone.jpg"),
+    url("../images/mobile/image-gallery-sugar-cubes.jpg");
   background-size: 50% 50%;
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
