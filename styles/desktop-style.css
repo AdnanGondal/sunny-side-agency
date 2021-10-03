@@ -32,7 +32,90 @@
     color: hsl(0, 0%, 100%);
   }
 
+  .nav-buts a:hover {
+    cursor: pointer;
+  }
+
   .dropdown {
     display: none;
+  }
+
+  .intros-services {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px;
+  }
+
+  .egg-image {
+    background: url(../images/desktop/image-transform.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cup-image {
+    background: url(../images/desktop/image-stand-out.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .graphic-design {
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+  }
+
+  .photography {
+    background-image: url(/images/desktop/image-photography.jpg);
+  }
+
+  .transform-brand {
+    order: -1;
+  }
+
+  .intro-container {
+    background-color: #fffbf7;
+    text-align: left;
+    color: hsl(212, 27%, 19%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro-container h2 {
+    font-family: "Fraunces", serif;
+    margin-bottom: 46px;
+    margin-left: 159px;
+    margin-right: 215px;
+  }
+
+  .intro-container p {
+    font-weight: lighter;
+    font-family: Helvetica, sans-serif;
+    margin-left: 159px;
+    margin-right: 215px;
+    font-size: 16px;
+    padding: 0px;
+  }
+
+  .intro-container a {
+    display: inline-block;
+    font-family: "Fraunces", serif;
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
+    margin-top: 10px;
+    margin-left: 159px;
+    margin-right: 215px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+  }
+
+  .intro-container a:link a:visited {
+    font-family: "Fraunces", serif;
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
   }
 }
