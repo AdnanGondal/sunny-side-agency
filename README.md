@@ -10,8 +10,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -31,7 +29,7 @@ COMING SOON
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site](https://adnangondal.github.io/sunny-side-agency/)
 
 ## My process
 
@@ -46,14 +44,13 @@ COMING SOON
 
 ### Useful resources
 
-COMING SOON
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Zell's Blog](https://zellwk.com/blog/how-to-write-mobile-first-css/ - This helped me set up a mobile-first css workflow and udnerstand the importance of mobile first.
+- [W3 Tutoiral](https://www.w3schools.com/html/html5_semantic_elements.asp) - This is a really useful reference for semantic HTML elements. 
 
 ## Author
 
+Adnan Gondal
 
+Email: adnangondal1@hotmail.com
 
-## Acknowledgments
 
